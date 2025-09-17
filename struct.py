@@ -72,7 +72,7 @@ if st.button("Generate Report"):
         st.download_button(
     label="Download Report",
     data=response.text,
-    file_name="structural_defect_report.docx",
+    file_name="structural_defect_report.txt",
     mime="text/plain")
     
         st.success("Thank you for using the Structural Defects Detection App!")
